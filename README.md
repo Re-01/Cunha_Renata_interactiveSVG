@@ -16,11 +16,11 @@ Express
 SQL
 
 # Installing
--git init
--Clone this repository
--git clone https://github.com/Re-01/Cunha_Renata_interactiveSVG.git
--Go into the repository
--cd Cunha_Renata_interactiveSVG
+git init
+clone this repository
+git clone https://github.com/Re-01/Cunha_Renata_interactiveSVG.git
+go into the repository
+cd Cunha_Renata_interactiveSVG
 
 ----------------------------------------------------
 
