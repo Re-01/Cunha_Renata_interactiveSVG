@@ -1,0 +1,127 @@
+* { box-sizing: border-box; }
+
+@font-face {
+  font-family: 'Times New Roman', 'Arial', 'Helvetica', sans-serif;
+}
+body { 
+color: black;
+font-size: 18px;
+height: 2000px; 
+}
+
+.buffer { min-height: 100vh }
+
+p {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+main { 
+  margin-top:15px;
+  height: 2000px;
+  padding: 120px;/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#eaa2a2+0,e8b2b2+47,fffcfc+100 */
+  background: #eaa2a2; /* Old browsers */
+  background: -moz-linear-gradient(left,  #eaa2a2 0%, #e8b2b2 47%, #fffcfc 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #eaa2a2 0%,#e8b2b2 47%,#fffcfc 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #eaa2a2 0%,#e8b2b2 47%,#fffcfc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaa2a2', endColorstr='#fffcfc',GradientType=1 ); /* IE6-9 */
+   }
+
+section { margin-bottom: 100px; color: white; }
+
+section > div:not(.text-wrapper) {
+  width: 90%; 
+  display: inline-block;
+  background-color: #e68686;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.mainCon {
+  display: flex;
+}
+
+.label_wrapper {
+  width: 20%;
+}
+
+.text-wrapper {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 30px;
+  width: 95%;
+}
+
+section h3 {
+  display: inline-block;
+  color: black;
+  font-family: 'Times New Roman', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+#sectionCon {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+section p { 
+  color: black; 
+  width: 70%; 
+  font-size: 1.25rem; text-align: center;
+}
+
+.hidden { 
+  display: none; 
+  text-align: center; 
+}
+
+.svg-graphic { 
+  width: 160px; 
+}
+
+header {
+  padding: 50px;
+  background-color: #EAA2A2;
+  text-align: center;
+}
+
+.main-header {
+  margin: 20px 0 0 40px; 
+  font-size: 8rem;
+  font-family: "Times New Roman", sans-serif;
+}
+
+.beer-info { display: inline-block; vertical-align: top; padding: 30px; border: thin solid white; }
+
+p > span { display: block; padding-bottom: 12px; }
+
+
+.popover { 
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  background-color: rgba(175, 134, 122, 0.7);
+  width: 290px;
+  z-index: 1;
+  border-radius: 80px;
+  padding: 80px;
+}
+
+.beer-description {
+margin: 0;
+}
+.show-popover { display: block; }
+
+.see-more { 
+  display: block; 
+  padding: 12px 18px; 
+  border-radius: 8px; 
+  color: white; 
+  background-color: salmon; 
+  margin-top: 8px;
+}
