@@ -9,17 +9,26 @@ References: all research were found in Brazilians websites. The most of them was
 
 # Built with
 HTML5
+
 SASS/CSS3
+
 JavaScript
+
 Node JS
+
 Express
+
 SQL
 
 # Installing
 git init
+
 clone this repository
+
 git clone https://github.com/Re-01/Cunha_Renata_interactiveSVG.git
+
 go into the repository
+
 cd Cunha_Renata_interactiveSVG
 
 ----------------------------------------------------
